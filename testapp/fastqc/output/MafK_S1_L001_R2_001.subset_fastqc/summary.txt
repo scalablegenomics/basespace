@@ -1,0 +1,11 @@
+PASS	Basic Statistics	MafK_S1_L001_R2_001.subset.fastq
+PASS	Per base sequence quality	MafK_S1_L001_R2_001.subset.fastq
+PASS	Per sequence quality scores	MafK_S1_L001_R2_001.subset.fastq
+WARN	Per base sequence content	MafK_S1_L001_R2_001.subset.fastq
+PASS	Per base GC content	MafK_S1_L001_R2_001.subset.fastq
+PASS	Per sequence GC content	MafK_S1_L001_R2_001.subset.fastq
+PASS	Per base N content	MafK_S1_L001_R2_001.subset.fastq
+PASS	Sequence Length Distribution	MafK_S1_L001_R2_001.subset.fastq
+PASS	Sequence Duplication Levels	MafK_S1_L001_R2_001.subset.fastq
+PASS	Overrepresented sequences	MafK_S1_L001_R2_001.subset.fastq
+FAIL	Kmer Content	MafK_S1_L001_R2_001.subset.fastq
