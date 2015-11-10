@@ -1,0 +1,242 @@
+{
+  "OriginatingUri": "https://cloud-test.illumina.com",
+  "References": [
+    {
+      "Rel": "Input",
+      "Type": "Sample",
+      "Href": "v1pre3/samples/1030030",
+      "HrefContent": "v1pre3/samples/1030030",
+      "Content": {
+        "Id": "1030030",
+        "Href": "v1pre3/samples/1030030",
+        "UserOwnedBy": {
+          "Id": "74075",
+          "Href": "v1pre3/users/74075",
+          "Name": "Illumina Inc",
+          "GravatarUrl": "https://secure.gravatar.com/avatar/702e4f8795f80bd0929a8b818bb19f65.jpg?s=20&d=https%3a%2f%2fbasespace.illumina.com%2fpublic%2fimages%2fDefaultCustomerGravatar.png&r=PG"
+        },
+        "Name": "truseqI1_8899",
+        "SampleId": "truseqI1_8899",
+        "Status": "Complete",
+        "StatusSummary": "",
+        "DateCreated": "2013-10-16T19:48:13.0000000",
+        "TotalSize": 3271320
+      }
+    },
+    {
+      "Rel": "Using",
+      "Type": "Project",
+      "Href": "v1pre3/projects/669672",
+      "HrefContent": "v1pre3/projects/669672",
+      "Content": {
+        "Id": "669672",
+        "UserOwnedBy": {
+          "Id": "423424",
+          "Href": "v1pre3/users/423424",
+          "Name": "Andrew Heiberg",
+          "GravatarUrl": "https://secure.gravatar.com/avatar/ac59947bd56caa43d2ea5d4b4cc7f359.jpg?s=20&d=https%3a%2f%2fbasespace.illumina.com%2fpublic%2fimages%2fDefaultCustomerGravatar.png&r=PG"
+        },
+        "Href": "v1pre3/projects/669672",
+        "Name": "output2",
+        "Description": "",
+        "DateCreated": "2013-10-15T20:15:00.0000000"
+      }
+    }
+  ],
+  "Properties": {
+    "Items": [
+      {
+        "Type": "string",
+        "Href": "v1pre3/appsessions/1442441/properties/Input.app-session-name",
+        "Name": "Input.app-session-name",
+        "Description": "App Session Name",
+        "Content": "FastQC_docker 11/15/2013 9:24:47"
+      },
+      {
+        "Type": "string",
+        "Href": "v1pre3/appsessions/1442441/properties/Input.kmers",
+        "Name": "Input.kmers",
+        "Description": "Kmer Size",
+        "Content": "5"
+      },
+      {
+        "Type": "project",
+        "Href": "v1pre3/appsessions/1442441/properties/Input.project-id",
+        "Name": "Input.project-id",
+        "Description": "Output Project",
+        "Content": {
+          "Id": "669672",
+          "UserOwnedBy": {
+            "Id": "423424",
+            "Href": "v1pre3/users/423424",
+            "Name": "Andrew Heiberg",
+            "GravatarUrl": "https://secure.gravatar.com/avatar/ac59947bd56caa43d2ea5d4b4cc7f359.jpg?s=20&d=https%3a%2f%2fbasespace.illumina.com%2fpublic%2fimages%2fDefaultCustomerGravatar.png&r=PG"
+          },
+          "Href": "v1pre3/projects/669672",
+          "Name": "output2",
+          "Description": "",
+          "DateCreated": "2013-10-15T20:15:00.0000000"
+        }
+      },
+      {
+        "Type": "map[]",
+        "Href": "v1pre3/appsessions/1442441/properties/Input.project-id.attributes",
+        "Name": "Input.project-id.attributes",
+        "Description": "Output Project Attributes",
+        "Items": [
+          [
+            {
+              "Key": "FieldId",
+              "Values": [
+                "project-id"
+              ]
+            },
+            {
+              "Key": "ResourceType",
+              "Values": [
+                "project"
+              ]
+            },
+            {
+              "Key": "ResourceId",
+              "Values": [
+                "669672"
+              ]
+            },
+            {
+              "Key": "ResourceHref",
+              "Values": [
+                "v1pre3/projects/669672"
+              ]
+            }
+          ]
+        ],
+        "HrefItems": "v1pre3/appsessions/1442441/properties/Input.project-id.attributes/items",
+        "ItemsDisplayedCount": 1,
+        "ItemsTotalCount": 1
+      },
+      {
+        "Type": "sample",
+        "Href": "v1pre3/appsessions/1442441/properties/Input.sample-id",
+        "Name": "Input.sample-id",
+        "Description": "Input Sample",
+        "Content": {
+          "Id": "1030030",
+          "Href": "v1pre3/samples/1030030",
+          "UserOwnedBy": {
+            "Id": "74075",
+            "Href": "v1pre3/users/74075",
+            "Name": "Illumina Inc",
+            "GravatarUrl": "https://secure.gravatar.com/avatar/702e4f8795f80bd0929a8b818bb19f65.jpg?s=20&d=https%3a%2f%2fbasespace.illumina.com%2fpublic%2fimages%2fDefaultCustomerGravatar.png&r=PG"
+          },
+          "Name": "truseqI1_8899",
+          "SampleId": "truseqI1_8899",
+          "Status": "Complete",
+          "StatusSummary": "",
+          "DateCreated": "2013-10-16T19:48:13.0000000",
+          "TotalSize": 3271320
+        }
+      },
+      {
+        "Type": "map[]",
+        "Href": "v1pre3/appsessions/1442441/properties/Input.sample-id.attributes",
+        "Name": "Input.sample-id.attributes",
+        "Description": "Input Sample Attributes",
+        "Items": [
+          [
+            {
+              "Key": "FieldId",
+              "Values": [
+                "sample-id"
+              ]
+            },
+            {
+              "Key": "ResourceType",
+              "Values": [
+                "sample"
+              ]
+            },
+            {
+              "Key": "ResourceId",
+              "Values": [
+                "1030030"
+              ]
+            },
+            {
+              "Key": "ResourceHref",
+              "Values": [
+                "v1pre3/samples/1030030"
+              ]
+            }
+          ]
+        ],
+        "HrefItems": "v1pre3/appsessions/1442441/properties/Input.sample-id.attributes/items",
+        "ItemsDisplayedCount": 1,
+        "ItemsTotalCount": 1
+      },
+      {
+        "Type": "string[]",
+        "Href": "v1pre3/appsessions/1442441/properties/Input.use-contaminants",
+        "Name": "Input.use-contaminants",
+        "Description": "Use Contaminant Filter",
+        "Items": [
+          "1"
+        ],
+        "HrefItems": "v1pre3/appsessions/1442441/properties/Input.use-contaminants/items",
+        "ItemsDisplayedCount": 1,
+        "ItemsTotalCount": 1
+      },
+      {
+        "Type": "sample[]",
+        "Href": "v1pre3/appsessions/1442441/properties/Input.Samples",
+        "Name": "Input.Samples",
+        "Description": "",
+        "Items": [
+          {
+            "Id": "1030030",
+            "Href": "v1pre3/samples/1030030",
+            "UserOwnedBy": {
+              "Id": "74075",
+              "Href": "v1pre3/users/74075",
+              "Name": "Illumina Inc",
+              "GravatarUrl": "https://secure.gravatar.com/avatar/702e4f8795f80bd0929a8b818bb19f65.jpg?s=20&d=https%3a%2f%2fbasespace.illumina.com%2fpublic%2fimages%2fDefaultCustomerGravatar.png&r=PG"
+            },
+            "Name": "truseqI1_8899",
+            "SampleId": "truseqI1_8899",
+            "Status": "Complete",
+            "StatusSummary": "",
+            "DateCreated": "2013-10-16T19:48:13.0000000",
+            "TotalSize": 3271320
+          }
+        ],
+        "HrefItems": "v1pre3/appsessions/1442441/properties/Input.Samples/items",
+        "ItemsDisplayedCount": 1,
+        "ItemsTotalCount": 1
+      }
+    ],
+    "DisplayedCount": 8,
+    "TotalCount": 8,
+    "Href": "v1pre3/appsessions/1442441/properties"
+  },
+  "Id": "1442441",
+  "Name": "FastQC_docker 11/15/2013 9:24:47",
+  "Href": "v1pre3/appsessions/1442441",
+  "Application": {
+    "Id": "278278",
+    "Href": "v1pre3/applications/278278",
+    "Name": "FastQC_docker",
+    "HomepageUri": "",
+    "ShortDescription": "Runs the FastQC tool using a docker image",
+    "DateCreated": "2013-10-14T16:20:47.0000000"
+  },
+  "UserCreatedBy": {
+    "Id": "423424",
+    "Href": "v1pre3/users/423424",
+    "Name": "Andrew Heiberg",
+    "GravatarUrl": "https://secure.gravatar.com/avatar/ac59947bd56caa43d2ea5d4b4cc7f359.jpg?s=20&d=https%3a%2f%2fbasespace.illumina.com%2fpublic%2fimages%2fDefaultCustomerGravatar.png&r=PG"
+  },
+  "Status": "Running",
+  "StatusSummary": "",
+  "DateCreated": "2013-11-15T17:38:11.3246021Z",
+  "ModifiedOn": "2013-11-15T17:38:12.0577880Z"
+}
